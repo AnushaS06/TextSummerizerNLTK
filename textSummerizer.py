@@ -15,7 +15,7 @@ article_text = ""
 
 for p in paragraphs:  
     article_text += p.text
-#removeing [number]
+#removing [number]
 article_text = re.sub(r'\[[0-9]*\]', ' ', article_text)
 
 #removing extra spaces
